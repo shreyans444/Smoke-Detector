@@ -1,0 +1,43 @@
+version: 2
+
+group_defaults:
+  approve_by_comment:
+    enabled: true
+    approve_regex: '^!!\/approve'
+  reset_on_push:
+    enabled: true
+
+groups:
+  code-admins:
+    required: 1
+    users:
+      - angussidney
+      - Aralun  # Kyll
+      - ArtOfCode-
+      - AWegnerGitHub  # Andy
+      - bwDraco
+      - ByteCommander
+      - CalvT
+      - ferrybig
+      - Fortunate-MAN  # Ashish Ahuja
+      - Glorfindel83
+      - honnza  # Jan Dvorak
+      - iBug
+      - K-Davis1
+      - LunarWatcher # Zoe AKA Princess Luna
+      - magisch
+      - Makyen
+      - metasmoke
+      - NobodyNada
+      - paper1111
+      - quartata
+      - spacemonaut # doppelgreener
+      - superplane39  # Mithrandir
+      - surajrao
+      - teward
+      - tripleee
+      - Undo1
+      - WELZ-gh
+    author_approval:
+      ignored: true
+    reject_value: -1
